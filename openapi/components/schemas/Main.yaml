@@ -1,0 +1,43 @@
+title: Main
+type: object
+properties:
+  temp:
+    type: number
+    description: 'Temperature. Unit Default: Kelvin, Metric: Celsius, Imperial: Fahrenheit.'
+    example: 293.25
+  pressure:
+    type: integer
+    description: >-
+      Atmospheric pressure (on the sea level, if there is no sea_level or
+      grnd_level data), hPa
+    format: int32
+    example: 1019
+  humidity:
+    type: integer
+    description: 'Humidity, %'
+    format: int32
+    example: 83
+  temp_min:
+    type: number
+    description: >-
+      Minimum temperature at the moment. This is deviation from current temp
+      that is possible for large cities and megalopolises geographically
+      expanded (use these parameter optionally). Unit Default: Kelvin, Metric:
+      Celsius, Imperial: Fahrenheit.
+    example: 289.82
+  temp_max:
+    type: number
+    description: >-
+      Maximum temperature at the moment. This is deviation from current temp
+      that is possible for large cities and megalopolises geographically
+      expanded (use these parameter optionally). Unit Default: Kelvin, Metric:
+      Celsius, Imperial: Fahrenheit.
+    example: 295.37
+  sea_level:
+    type: number
+    description: 'Atmospheric pressure on the sea level, hPa'
+    example: 984
+  grnd_level:
+    type: number
+    description: 'Atmospheric pressure on the ground level, hPa'
+    example: 990

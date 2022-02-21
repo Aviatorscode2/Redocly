@@ -1,0 +1,8 @@
+type: apiKey
+description: >-
+  API key to authorize requests. (If you don't have an API key, get one at
+  https://openweathermap.org/. See
+  https://idratherbewriting.com/learnapidoc/docapis_get_auth_keys.html for
+  details.)
+name: appid
+in: query

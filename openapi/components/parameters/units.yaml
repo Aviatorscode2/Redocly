@@ -1,0 +1,13 @@
+name: units
+in: query
+description: >-
+  **Units**. *Example: imperial*. Possible values: `standard`, `metric`, and
+  `imperial`. When you do not use the `units` parameter, the format is
+  `standard` by default.
+schema:
+  type: string
+  enum:
+    - standard
+    - metric
+    - imperial
+  default: imperial

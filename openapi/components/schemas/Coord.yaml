@@ -1,0 +1,11 @@
+title: Coord
+type: object
+properties:
+  lon:
+    type: number
+    description: 'City geo location, longitude'
+    example: 145.77
+  lat:
+    type: number
+    description: 'City geo location, latitude'
+    example: -16.92

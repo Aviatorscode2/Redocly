@@ -1,0 +1,7 @@
+title: Snow
+type: object
+properties:
+  3h:
+    type: number
+    description: Snow volume for the last 3 hours
+    example: 6

@@ -1,0 +1,48 @@
+title: Successful response
+type: object
+properties:
+  coord:
+    $ref: .\Coord.yaml
+  weather:
+    type: array
+    items:
+      $ref: .\Weather.yaml
+    description: (more info Weather condition codes)
+  base:
+    type: string
+    description: Internal parameter
+    example: cmc stations
+  main:
+    $ref: .\Main.yaml
+  visibility:
+    type: integer
+    description: 'Visibility, meter'
+    example: 16093
+  wind:
+    $ref: .\Wind.yaml
+  clouds:
+    $ref: .\Clouds.yaml
+  rain:
+    $ref: .\Rain.yaml
+  snow:
+    $ref: .\Snow.yaml
+  dt:
+    type: integer
+    description: 'Time of data calculation, unix, UTC'
+    format: int32
+    example: 1435658272
+  sys:
+    $ref: .\Sys.yaml
+  id:
+    type: integer
+    description: City ID
+    format: int32
+    example: 2172797
+  name:
+    type: string
+    example: Cairns
+  cod:
+    type: integer
+    description: Internal parameter
+    format: int32
+    example: 200

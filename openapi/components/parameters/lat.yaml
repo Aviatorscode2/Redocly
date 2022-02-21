@@ -1,0 +1,7 @@
+name: lat
+in: query
+description: >-
+  **Latitude**. *Example: 35*. The latitude coordinate of the location of your
+  interest. Must use with `lon`.
+schema:
+  type: string

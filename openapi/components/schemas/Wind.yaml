@@ -1,0 +1,14 @@
+title: Wind
+type: object
+properties:
+  speed:
+    type: number
+    description: >-
+      Wind speed. Unit Default: meter/sec, Metric: meter/sec, Imperial:
+      miles/hour.
+    example: 5.1
+  deg:
+    type: integer
+    description: 'Wind direction, degrees (meteorological)'
+    format: int32
+    example: 150

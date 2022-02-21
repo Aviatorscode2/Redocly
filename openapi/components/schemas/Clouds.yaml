@@ -1,0 +1,8 @@
+title: Clouds
+type: object
+properties:
+  all:
+    type: integer
+    description: 'Cloudiness, %'
+    format: int32
+    example: 75

@@ -1,0 +1,8 @@
+title: Rain
+type: object
+properties:
+  3h:
+    type: integer
+    description: Rain volume for the last 3 hours
+    format: int32
+    example: 3
