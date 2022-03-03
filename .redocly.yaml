@@ -1,14 +1,15 @@
 # See https://redoc.ly/docs/cli/configuration/ for more information.
 apiDefinitions:
   main: openapi/openapi.yaml
+  openweather: ./openapi_openweathermap.yml
 lint:
   extends:
     - recommended
   rules:
     no-unused-components: warning
 referenceDocs:
-  htmlTemplate: ./docs/index.html
+  htmlTemplate: ./docs/index.html,,
   theme:
     colors:
       primary:
-        main: "#32329f"
+        main: '#32329f'
