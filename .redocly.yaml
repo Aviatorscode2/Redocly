@@ -8,7 +8,8 @@ lint:
   rules:
     no-unused-components: warning
 referenceDocs:
-  htmlTemplate: ./docs/index.html,,
+  htmlTemplate: ./docs/index.html
+  showConsole: true
   theme:
     colors:
       primary:
